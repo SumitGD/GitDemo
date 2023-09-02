@@ -18,17 +18,17 @@ Cucumber Doc:
 
 # Setup
 <details>
-<summary>Setup in Ecplise</summary>
+<summary><h3>Setup in Ecplise</h3></summary>
 
-### Install the cucumber Eclipse plugin
++ Install the cucumber Eclipse plugin
   1. [Cucumber-java ](https://mvnrepository.com/artifact/io.cucumber/cucumber-java)
   2. [Cucumber-JUNIT ](https://mvnrepository.com/artifact/io.cucumber/cucumber-junit)
   3. [Cucumber-core ](https://mvnrepository.com/artifact/io.cucumber/cucumber-core)
-### Add Maven libraries in the Pom.xml
-### Create a maven project in Eclipse IDE
-### Create a Feature file and run
-### Create a file in the project as a sample. feature
-### Create Scenarios in the feature file
++ Add Maven libraries in the Pom.xml
++ Create a maven project in Eclipse IDE
++ Create a Feature file and run
++ Create a file in the project as a sample. feature
++ Create Scenarios in the feature file
 ```Gherkin
 Feature: Search page
   Scenario: Search a movie
@@ -39,19 +39,18 @@ Feature: Search page
     But Error should not displayYou can add text within a collapsed section. 
 ```
 </details>
-
 <details>
-<summary>Setup in IntelliJ idea</summary>
+<summary><H3>Setup in IntelliJ Idea</H3></summary>
   
-### Install the cucumber plugin IntelliJ idea 
++ Install the cucumber plugin IntelliJ idea 
   1. [Cucumber-java ](https://mvnrepository.com/artifact/io.cucumber/cucumber-java)
   2. [Cucumber-JUNIT ](https://mvnrepository.com/artifact/io.cucumber/cucumber-junit)
   3. [Cucumber-core ](https://mvnrepository.com/artifact/io.cucumber/cucumber-core)
-### Add Maven libraries in the Pom.xml
-### Create a maven project in IntelliJ idea 
-### Create a Feature file and run
-### Create a file in the project as a sample. feature
-### Create Scenarios in the feature file
++ Add Maven libraries in the Pom.xml
++ Create a maven project in IntelliJ idea 
++ Create a Feature file and run
++ Create a file in the project as a sample. feature
++ Create Scenarios in the feature file
 ```Gherkin
    #Author: your.email@your.domain.com
 #Keywords Summary :

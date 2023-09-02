@@ -1,3 +1,7 @@
+# Planning 
+Complete below tutorial to learn cucmber 
+- [ ] [cucumber BDD tutroial](https://www.youtube.com/watch?v=InX5h3zBsqM)
+
 # Cucumber Basics
 ## Why to learn cucumber
 + It is a BDD-based test management tool that uses the Gherkin language to write test cases under feature files.
@@ -21,36 +25,26 @@ Cucumber Doc:
 <summary><h3>Setup in Ecplise</h3></summary>
 
 + Install the cucumber Eclipse plugin
++ Create a maven project in Eclipse IDE
 + Add Maven libraries in the Pom.xml
   1. [Cucumber-java ](https://mvnrepository.com/artifact/io.cucumber/cucumber-java)
   2. [Cucumber-JUNIT ](https://mvnrepository.com/artifact/io.cucumber/cucumber-junit)
   3. [Cucumber-core ](https://mvnrepository.com/artifact/io.cucumber/cucumber-core)
-+ Create a maven project in Eclipse IDE
-+ Create a Feature file and run
-+ Create a file in the project as a sample. feature
-+ Create Scenarios in the feature file
-```Gherkin
-Feature: Search page
-  Scenario: Search a movie
-    Given User is on search
-    When Search for movie
-    And Hit Enter button
-    Then Search result should display
-    But Error should not displayYou can add text within a collapsed section. 
-```
+
 </details>
 <details>
 <summary><H3>Setup in IntelliJ Idea</H3></summary>
   
 + Install the cucumber plugin IntelliJ idea
++ Create a maven project in IntelliJ idea 
 + Add Maven libraries in the Pom.xml
   1. [Cucumber-java ](https://mvnrepository.com/artifact/io.cucumber/cucumber-java)
   2. [Cucumber-JUNIT ](https://mvnrepository.com/artifact/io.cucumber/cucumber-junit)
   3. [Cucumber-core ](https://mvnrepository.com/artifact/io.cucumber/cucumber-core)
-+ Create a maven project in IntelliJ idea 
-+ Create a Feature file and run
-+ Create a file in the project as a sample. feature
-+ Create Scenarios in the feature file
+
+</details>
+
+# Example
 ```Gherkin
    #Author: your.email@your.domain.com
 #Keywords Summary :
@@ -96,7 +90,6 @@ Feature: Title of your feature
       | name2 |     7 | Fail    |
 
 ```
-</details>
 
 # Practical
 ## Pom.xml required Dependencies

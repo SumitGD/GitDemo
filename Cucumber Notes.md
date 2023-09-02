@@ -16,12 +16,11 @@ Cucumber Doc:
 + Examples
 
 ## Setup in Ecplise
-#### Create a maven project in Eclipse IDE
-#### Create a Feature file and run
-1. Create a file in the project as a sample. feature
-#### Install cucumber eclipse plugin
-
-## Feature file
++ Create a maven project in Eclipse IDE
++ Create a Feature file and run
++ Create a file in the project as a sample. feature
++ Install the cucumber Eclipse plugin
++ Create Scenarios in the feature file
 ```Gherkin
 Feature: Search page
   Scenario: Search a movie
@@ -31,14 +30,74 @@ Feature: Search page
     Then Search result should display
     But Error should not display
 ```
+## Setup in IntelliJ idea
+<details>
 
+<summary>Setup in IntelliJ idea</summary>
 
+### Feature file
+You can add text within a collapsed section. 
+You can add an image or a code block, too.
 
+```Gherkin
+   #Author: your.email@your.domain.com
+#Keywords Summary :
+#Feature: List of scenarios.
+#Scenario: Business rule through list of steps with arguments.
+#Given: Some precondition step
+#When: Some key actions
+#Then: To observe outcomes or validation
+#And,But: To enumerate more Given,When,Then steps
+#Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
+#Examples: Container for s table
+#Background: List of steps run before each of the scenarios
+#""" (Doc Strings)
+#| (Data Tables)
+#@ (Tags/Labels):To group Scenarios
+#<> (placeholder)
+#""
+## (Comments)
+#Sample Feature Definition Template
+@tag
+Feature: Title of your feature
+  I want to use this template for my feature file
 
+  @tag1
+  Scenario: Title of your scenario
+    Given I want to write a step with precondition
+    And some other precondition
+    When I complete action
+    And some other action
+    And yet another action
+    Then I validate the outcomes
+    And check more outcomes
 
+  @tag2
+  Scenario Outline: Title of your scenario outline
+    Given I want to write a step with <name>
+    When I check for the <value> in step
+    Then I verify the <status> in step
 
+    Examples: 
+      | name  | value | status  |
+      | name1 |     5 | success |
+      | name2 |     7 | Fail    |
 
+```
+</details>
 
+## Tabs
+## Quarterly Results { .tabset .tabset-fade .tabset-pills}
+Content before the tabs.
+
+### [Tab A](#tab/tab-a)
+Tab A content.
+
+### [Tab B](#tab/tab-b)
+Tab B content.
+***
+
+Content after the tabs.
 
 
 ## precendence 

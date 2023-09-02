@@ -3,7 +3,7 @@ Learning Path : https://docs.github.com/en/get-started/writing-on-github/getting
 # Heading 1
 ## Heading 2
 ### Heading 3
-** Bold Windows Shortcut : cntrl + B and for mac : cmd + b**
+** Bold Windows Shortcut : cntrl + B and for mac : cmd + b **
 _Italic for windows cntrl + i abd for mac cmd + i_
 Add all WIKI here
 

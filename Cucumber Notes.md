@@ -15,7 +15,10 @@ Cucumber Doc:
 + But
 + Examples
 
-## Setup in Ecplise
+# Setup
+<details>
+<summary>Setup in Ecplise</summary>
+  
 + Create a maven project in Eclipse IDE
 + Create a Feature file and run
 + Create a file in the project as a sample. feature
@@ -28,9 +31,10 @@ Feature: Search page
     When Search for movie
     And Hit Enter button
     Then Search result should display
-    But Error should not display
+    But Error should not displayYou can add text within a collapsed section. 
 ```
-## Setup in IntelliJ idea
+</details>
+
 <details>
 
 <summary>Setup in IntelliJ idea</summary>

@@ -12,5 +12,22 @@
   
 # Initial Setup and First Script
 [Follow the Guide to Quick start setup](https://selenide.org/quick-start.html)
+** For Maven: **
+```Maven
+<!-- https://mvnrepository.com/artifact/com.codeborne/selenide -->
+<dependency>
+    <groupId>com.codeborne</groupId>
+    <artifactId>selenide</artifactId>
+    <version>6.17.2</version>
+</dependency>
+```
+** For Gradel: **
+```Gradel
+dependencies {
+  testImplementation 'com.codeborne:selenide:6.17.2'
+}
+```
+
+
 
 
